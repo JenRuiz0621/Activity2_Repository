@@ -1,6 +1,9 @@
-<mvc:View controllerName="com.acn.training.activity2.controller.MainView"
-    xmlns:mvc="sap.ui.core.mvc"
-    xmlns="sap.m">
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.acn.training.activity2.controller.MainView">
     <Page id="page" title="{i18n>title}">
+    <content>
+        <Label text="1.) Given a number 'number', assuming it’s ranging from 1 - 999, convert it into  words." width="100%" id="lblQuestion1"/>
+        <Label text="Sample input number: 789" width="100%" id="lblNumber"/>
+        <Button xmlns="sap.m" text="Convert" id="btnOutput" />
+    </content>
     </Page>
 </mvc:View>
