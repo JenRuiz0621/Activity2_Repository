@@ -1,1 +1,15 @@
 /* Enter your custom styles here */
+
+.boxActivity {
+    border: 2px solid #ccc;       /* Light gray border */
+    padding: 20px;                /* Inner spacing */
+    border-radius: 10px;          /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #f9f9f9;    /* Light background */
+    max-width: 1000px;             /* Optional: limits width */
+    margin: 0 auto;               /* Center horizontally */
+  }
+.lblTitle {
+    font-weight: 700;
+    font-size: larger; 
+}

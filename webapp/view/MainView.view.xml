@@ -1,9 +1,25 @@
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.acn.training.activity2.controller.MainView">
     <Page id="page" title="{i18n>title}">
-    <content>
+    <Label text=" " id="lblSpacer"/>  
+    <Panel id="panel1" class="boxActivity" >
+        <Label text="Question No. 1" id="lblTitle1" class="lblTitle" />
         <Label text="1.) Given a number 'number', assuming it’s ranging from 1 - 999, convert it into  words." width="100%" id="lblQuestion1"/>
-        <Label text="Sample input number: 789" width="100%" id="lblNumber"/>
-        <Button xmlns="sap.m" text="Convert" id="btnOutput" />
-    </content>
+        <Label text="Input: " id="textInput1"/>
+        <Label text="0621" id="lblInput1" width="95%" />
+        <Input xmlns="sap.m" id="inpInput1" value="0621" visible="false"/>
+        <Label text="Output: " id="textOutput1"/>
+        <Label text="" id="lblOutput1"/>            
+    </Panel>
+    <Label text=" " id="lblSpacer1"/>  
+    <Panel id="panel2" class="boxActivity" >
+        <Label text="Question No. 2" id="lblTitle2" class="lblTitle" />
+        <Label text="2.) Using While Loop, print the pattern below. Given ‘height’ as height of the triangle and
+assuming it is not a negative number." width="100%" id="lblQuestion2"/>
+        <Label text="Input: " id="textInput2"/>
+        <Label text=" 5" id="lblInput2" width="95%" />
+        <Input xmlns="sap.m" id="inpInput2" value="5" visible="false"/>
+        <Label text="Output: " id="textOutput2"/>
+        <Label text="" id="lblOutput2"/>            
+    </Panel>
     </Page>
 </mvc:View>
