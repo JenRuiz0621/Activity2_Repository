@@ -1,25 +1,84 @@
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.acn.training.activity2.controller.MainView">
     <Page id="page" title="{i18n>title}">
+
     <Label text=" " id="lblSpacer"/>  
+
     <Panel id="panel1" class="boxActivity" >
         <Label text="Question No. 1" id="lblTitle1" class="lblTitle" />
-        <Label text="1.) Given a number 'number', assuming it’s ranging from 1 - 999, convert it into  words." width="100%" id="lblQuestion1"/>
-        <Label text="Input: " id="textInput1"/>
+        <Label text="Given a number 'number', assuming it’s ranging from 1 - 999, convert it into  words." width="100%" id="lblQuestion1"/>
+        <Label text="Input: " id="textInput1" class="textInputOutput" />
         <Label text="0621" id="lblInput1" width="95%" />
         <Input xmlns="sap.m" id="inpInput1" value="0621" visible="false"/>
-        <Label text="Output: " id="textOutput1"/>
+        <Label text="Output: " id="textOutput1" class="textInputOutput" />
         <Label text="" id="lblOutput1"/>            
     </Panel>
-    <Label text=" " id="lblSpacer1"/>  
+
+    <Label text=" " id="lblSpacer1"/> 
+
     <Panel id="panel2" class="boxActivity" >
         <Label text="Question No. 2" id="lblTitle2" class="lblTitle" />
-        <Label text="2.) Using While Loop, print the pattern below. Given ‘height’ as height of the triangle and
+        <Label text="Using While Loop, print the pattern below. Given ‘height’ as height of the triangle and
 assuming it is not a negative number." width="100%" id="lblQuestion2"/>
-        <Label text="Input: " id="textInput2"/>
-        <Label text=" 5" id="lblInput2" width="95%" />
+        <Label text="Input: " id="textInput2" class="textInputOutput" />
+        <Label text="5" id="lblInput2" width="95%" />
         <Input xmlns="sap.m" id="inpInput2" value="5" visible="false"/>
-        <Label text="Output: " id="textOutput2"/>
-        <Label text="" id="lblOutput2"/>            
+        <Label text="Output: " id="textOutput2" class="textInputOutput" />
+        <FormattedText id="lblOutput2" htmlText="" />         
     </Panel>
+
+    <Label text=" " id="lblSpacer2"/>  
+
+    <Panel id="panel3" class="boxActivity" >
+        <Label text="Question No. 3" id="lblTitle3" class="lblTitle" />
+        <Label text="Using For Loop, print the pattern below. Given ‘height’ as height of the 'X' sign and
+assuming it is not a negative number and ‘height’ is an odd number." width="100%" id="lblQuestion3"/>
+        <Label text="Input: " id="textInput3" class="textInputOutput" />
+        <Label text="5" id="lblInput3" width="95%" />
+        <Input xmlns="sap.m" id="inpInput3" value="5" visible="false"/>
+        <Label text="Output: " id="textOutput3" class="textInputOutput" />
+        <FormattedText id="lblOutput3" htmlText="" />         
+    </Panel>  
+
+    <Label text=" " id="lblSpacer3"/>  
+
+    <Panel id="panel4" class="boxActivity" >
+        <Label text="Question No. 4" id="lblTitle4" class="lblTitle" />
+        <FormattedText htmlText="Create a function that calculates the perimeter of a triangle. Function should return the value of perimeter." width="100%" id="lblQuestion4"/>
+        <Label text="Input: " id="textInput4" class="textInputOutput" />
+        <Label text="4, 10, 8" id="lblInput4" width="95%" />
+        <Label text="Perimeter of triangle: " id="textOutput4" class="textInputOutput" />
+        <Label text="" id="lblOutput4"/>          
+    </Panel>  
+
+    <Label text=" " id="lblSpacer4"/>  
+
+    <Panel id="panel5" class="boxActivity" >
+        <Label text="Question No.5" id="lblTitle5" class="lblTitle" />
+        <FormattedText htmlText="We have the following arrays :  &lt;br&gt;
+              color = ['Blue', 'Green', 'Red', 'Orange', 'Violet', 'Indigo', 'Yellow']; &lt;br&gt;
+              o = ['th','st','nd','rd'];  &lt;br&gt; &lt;br&gt;
+              Write a JavaScript program to display the colors in the following way :  &lt;br&gt;
+              '1st choice is Blue .'  &lt;br&gt;
+              '2nd choice is Green.'  &lt;br&gt;
+              '3rd choice is Red.' &lt;br&gt; &lt;br&gt;" width="100%" id="lblQuestion5"/>
+        <Label text="Input: " id="textInput5" class="textInputOutput" />
+        <Label text="Blue, Green, Red, Orange, Violet, Indigo, Yellow" id="lblInput5" width="95%" />
+        <Label text="Your choices of Color: " id="textOutput5" class="textInputOutput" />
+        <FormattedText id="lblOutput5" htmlText="" />         
+    </Panel> 
+
+    <Label text=" " id="lblSpacer5"/>  
+
+    <Panel id="panel6" class="boxActivity" >
+        <Label text="Question No.6" id="lblTitle6" class="lblTitle" />
+        <FormattedText htmlText="Given the data, output the data(Name and Age) of the person with
+the highest number of skillset.&lt;br&gt; &lt;br&gt;" width="100%" id="lblQuestion6"/>
+        <Label text="Output: " id="textOutput6" class="textInputOutput" />
+        <FormattedText id="lblOutput6" htmlText="" />         
+    </Panel> 
+
+    <Label text=" " id="lblSpace6"/>  
+
+
     </Page>
 </mvc:View>
